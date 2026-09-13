@@ -1,32 +1,16 @@
-# React + TypeScript + Vite
+PH Assignment 5
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Description :
+A React and TypeScript web application built with Tailwind CSS to display a technology stack interactively.
 
-Currently, two official plugins are available:
+Technology ussed :
+React , Typescript , tailwind css
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Question Answers :
+1) JSX is a syntax extension for JavaScript that allows writing HTML-like code inside JavaScript
+2) Props are passed from parent to child and they only be read but State can be updated over time to trigger re-renders.
+3) the useState hook allows functional components to manage local state. It was used to handle UI selections and interactive features in the project.
+4) The useEffect hook handles side effects in components . It is used to load initial data .
+5) In React, when we use .map() to render a list, every item needs a unique key so React can efficiently track which item changed, was added, or was removed.
+6) Conditional rendering in React means showing different UI depending on a condition.
+7) Data passes parent to child by props and a child can send data to the parent by calling a function given by the parent.
